@@ -1,0 +1,2 @@
+The algorithm finds the cpu list with max makespan, then checks if any process within can be moved to another process without exceeding max makespan.
+if after a cpu's makespan plus a parallelisable process is lower than max makespan, the process doesnt create subprocesses, hence improving makespan.
